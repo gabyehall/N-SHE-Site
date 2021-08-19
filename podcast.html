@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<title>podcast site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5,h2 {font-family: "Raleway", sans-serif}
+h6 {font-family: "Raleway", sans-serif; color: black;}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://icdn.digitaltrends.com/image/digitaltrends/eniac-women-programmers-6_1-1920x1280.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 10px 8px #31312F;
+}
+/* main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: white;
+  background-color:#771F3E;
+  padding: 20px;
+  
+}
+
+/* Podcast column */
+.podcast {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9kY2FzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  
+  padding: 20px;
+  
+}
+
+/*Styling for links */
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+</style>
+<body>
+<!-- Header Part-->
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>NOTORIOUS S.H.E</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">resources</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">interviews and resources from women in STEM</p>
+    <p class="w3-xlarge">for future women in STEM</p>
+    <p class="w3-large"><i>Spotify</i></p>
+    <p>powered by the <a href="https://www.mediasanctuary.org/" target="_blank">Sanctuary for Independent Media</a></p>
+  </div>
+</div>
+
+<!-- MAIN SECTION --> 
+ <div class="main">
+  <img src="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_nologo400/17206463/17206463-1629238489353-261969b15b3e4.jpg" alt="Podcast_image" class="center">
+ <h2>Notorious S-H-E </h2>
+ <p><i><b>Interviews and resources from women in STEM for future women in STEM</b></i></p>
+ <p>Welcome to Notorious S-H-E, a podcast by women in STEM for future women in STEM. In this podcast, host Gaby Hall interviews women in STEM careers to expose listeners to different career options and resources. The goal of this podcast is to show young girls that anyone, regardless of their background, can be successful in their STEM careers.</p>
+<p>Each episode features a lightning lesson and an interview with a successful woman in STEM. These lightning lessons are meant to explain different STEM topics and highlight careers similar to that of the interviewee. This website also features episode-specific and general resources. </p> 
+<p>This podcast was developed in partnership with the Sanctuary for Independent Media’s Hudson Mowhawk radio station. The Hudson Mohawk Magazine is a locally produced news hour that provides sanctuary for the discussion of a wide range of ideas. The Hudson Mohawk Magazine advances the Sanctuary for Independent Media’s organizational mission to use art and participatory action to promote social and environmental justice and freedom of expression.</p>
+
+
+</div>
+ 
+<!-- PODCAST -->
+ <div class="podcast">
+<h2> Podcasts: </h2>
+<!-- 
+for the podcast section:
+make this a carousel with pop-ups
+-->
+<!-- carousel modal picture with text on bottom -->
+<p>Click on the links below to listen to and learn more about each episode!</p>
+
+<!--podcast grid -->
+ <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdn.coverstand.com/12704/663432/article_assets/2efbe027ffbb77b6ceacc57cdd81cb219a6fd572.jpg" alt="Tia" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><button onclick="document.getElementById('p1').style.display='block'" class="w3-button w3-black">E1: BIG DATA</button></p> 
+        <p><b>Tia Dubuisson</b></p>
+        <p>CEO and CoFounder of Bell Fluer Technologies</p>
+        <p><i>"The machines are learning....are you?  Be a life learner to stay ahead of the curve!</i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://faculty.rpi.edu/sites/default/files/Berman_crop.jpg" alt="Fran" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><button onclick="document.getElementById('p2').style.display='block'" class="w3-button w3-black">E2: Internet of Things</button></p>
+        <p><b>Francine Berman</b></p>
+        <p>Director of Public Interest Technology and Stuart Rice Research Professor at UMass Amherst</p>
+        <p><i>"Focus on what you're passionate about!"</i></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://technolochicas.org/files/chicas/02-19-18524478779.jpg" alt="Margaret" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><button onclick="document.getElementById('p3').style.display='block'" class="w3-button w3-black">E3: Optical Engineering</button></p>
+        <p><b>Margaret Dominguez</b></p>
+        <p>Optical Engineer at NASA Goddard</p>
+        <p><i>"Keep trying and work hard!"</i></p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About Me</h1>
+    </div>
+    <div class="w3-container">
+      <h6>Hi! I’m Gaby Hall, a Cognitive Science student at <a href="https://www.rpi.edu//">Rensselaer Polytechnic Institute (RPI),</a> expecting to graduate in the Spring of 2023. I’m a teaching assistant at <a href="https://albanycancode.org/">Albany Can Code</a> and an intern at <a href="https://www.mediasanctuary.org/">the Sanctuary for Independent Media’s</a> Hudson Mohawk Radio. I was inspired to develop this podcast series by my work as a speaker for the nonprofit organization, <a href="https://www.codella.org/">CODeLLA.</a> Through this organization, I have had the honor of speaking at many events advocating for women’s education rights and female involvement in STEM. I have a passion for education, computer literacy, and the youth of the STEM world. 
+      </h6>
+      <h6>At RPI, I’ve worked as a research assistant in the Department of Economics programming for a study on how gendered virtual assistants influence gender biases in the workplace. I also worked as a research assistant for the Manufacturing Innovation Center (MIC) at RPI. At MIC, she worked on a program on robotics education programs throughout the country. At RPI, I’m involved with numerous organizations such as the Women at Rensselaer Mentorship program and the Theta Tau chapter of the sorority Alpha Phi. Prior to RPI, I was a national honorable mention and a regional winner of the <a href="https://www.aspirations.org/">NCWIT Aspirations in Computing Award</a> for the development of my  Envirohacks high school hackathon. During this time I worked as an intern for <a href="https://learn01.io/">Learn 01</a> and as a contracted programmer for the nonprofit organization <a href="https://www.codella.org/">CODeLLA.</a>. In the future, I hope to continue my education and pursue higher degrees in cognitive science and anthropology. I also hope to be an advocate for education and digital literacy. 
+      </h6>
+    </div>
+    <div class="w3-container w3-black">
+      <h1><a href="https://www.w3.org/">The Sanctuary for Independent Media</a></h1>
+    </div>
+    <div class="w3-container">
+      <h6>The Sanctuary for Independent Media is a telecommunications production facility dedicated to community media arts, located in a historic former church at 3361 6th Avenue in North Troy, NY. The Sanctuary hosts screening, production, and performance facilities, training in media production, and meeting space for artists, activists, and independent media makers of all kinds. The mission of Media Alliance is to address the common needs of nonprofit organizations providing electronic media programs and services to artists, organizations, and the general public in areas including, but not limited to, production, distribution, exhibition, research, preservation, appreciation, and to further development of this field. Media Alliance has a mandate to sponsor and encourage cultural, and educational activities among media organizations, artists, and the general public, by conducting research, by gathering information, by organizing and disseminating information among the membership, by effectively communicating and cooperating with organizations, independent producers, funding sources, and the general public, by responding to issues of concern to the field, by public information programs, and by administering property.</h6>
+      <h6>Listen to the Hudson Mohawk Radio Station (WOOC 105.3 FM) <a href="http://stream.woocfm.org:8000/wooc">here!</a></h6>
+    </div>
+    <div class="w3-container w3-black">
+        <h1>Special Thanks</h1>
+      </div>
+      <div class="w3-container">
+        <h6>Thank you for everyone who helped make this podcast possible!</h6>
+        <h6>Thank you to <b>Kristoff Hefty</b> for creating the intro/outro for the podcast! Listen to his band, Hidden Trycycle <a href="https://open.spotify.com/artist/3mC2X8wZn00cPQH5rnjI3W?si=Zy-ISCv8TrG7X6p70FUZ7w&dl_branch=1">here!</a></h6>
+        <h6>Thank you to <b>Sarah Bischof</b> for inspiring me and mentoring me about podcasts! You can listen to her podcast, The Unemployment Podcast, <a href="https://podcasts.apple.com/us/podcast/the-unemployment-podcast/id1511474369">here!</a></h6>
+        <h6>Thank you to <b>Sina Basila Hickey,</b> Hudson Mohawk Magazine Coordinator, for helping me develop my poldcast!</h6>
+        <h6>Thank you to <b>Branda Miller,</b> Co-founder and Arts & Education Coordinator at the Sanctuary for Independent Media, for inspiring me to develolp this podast and for introducing me to the Sanctuary! I am so grateful to have you as my professor. </h6>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Contact Me!</h1>
+      </div>
+      <div class="w3-container">
+        <h6><a href="https://www.linkedin.com/in/gabyehall">LinkedIn</a></h6>
+        <h6><a href="https://www.instagram.com/gabyehall/">Instagram</a></h6>
+        <h6>Email: gabyehall.rpi@gmail.com</h6>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Resources Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Resources</h1>
+    </div>
+    <div class="w3-container">
+      <h6><b>The following are a list of resources recommended by the interviewees</b></h6>
+      <h6><b>Learn:</b></h6>
+      <h6><i>Use the links in this section to help you learn new skills and about new career paths!</i></h6>
+      <h6><a href="hhttps://ssec.si.edu/girls-and-women-in-stem">Smithsonian Science</a></h6>
+      <h6><a href="https://scratch.mit.edu/">Scratch</a></h6>
+      <h6><a href="https://www.w3schools.com/">W3 Schools</a></h6>
+      <h6><a href="https://replit.com/">Replit</a></h6>
+      <h6><a href="https://www.khanacademy.org/">Khan Academy</a></h6>
+      <h6><a href="https://www.codecademy.com/">Code Academy</a></h6>
+      <h6><a href="https://code.org/learn">Code.Org</a></h6>
+      <h6><a href="http://www.egfi-k12.org/index_noflash.php">EGFi</a></h6>
+      <h6><a href="https://www.exploratorium.edu/explore">Exploratorium</a></h6>
+      <h6><a href="https://www.nasa.gov/stem">NASA</a></h6>
+      <h6><a href="https://www.idtech.com/virtual/">IDTech</a></h6>
+      <h6><a href="https://www.tynker.com/">Tynker</a></h6>
+
+      <h6><b>Communities:</b></h6>
+      <h6><i>Here you can find various online communities dedicated to helping girls in STEM. Through these communities, you can find mentors, opportunities, scholarships, and resources. </i></h6>
+      <h6><a href="https://ncwit.org/">National Center for Women in Technology</a></h6>
+      <h6><a href="https://swe.org/">Society of Women Engineers</a></h6>
+      <h6><a href="https://girlswhocode.com/">Girls Who Code</a></h6>
+      <h6><a href="https://womenanddrones.com/">Women and Drones</a></h6>
+      <h6><a href="https://girldevelopit.com/">Girl Develop IT</a></h6>
+      <h6><a href="https://www.engineergirl.org/">Engineer Girl</a></h6>
+      <h6><a href="https://akirachix.com/">Akira Chix</a></h6>
+      <h6><a href="https://www.stemforher.org/">STEM For Her</a></h6>
+      <h6><a href="https://ngcproject.org/">National Girls Collaborative Project/a></h6>
+      <h6><a href="https://chicktech.org/">Chick Tech</a></h6>
+      <h6><a href="http://stemlikeagirl.org/">STEM Like a Girl</a></h6>
+      <h6><a href="https://usa.generation.org/">USA Generation</a></h6>
+      <h6><a href="https://technolochicas.org/">Technolochicas</a></h6>
+      <h6><a href="http://www.scigirlsconnect.org/groups/latina-scigirls/">SciGirls Connect</a></h6>
+      <h6><a href="https://obamawhitehouse.archives.gov/administration/eop/ostp/women">White Hours Women in STEM</a></h6>
+
+      <h6><b>Opportunities:</b></h6>
+      <h6><i>Here you can find different opportunities and scholarships for girls in STEM!</i></h6>
+      <h6><a href="https://www.osa.org/en-us/careers/">OSA Careers</a></h6>
+      <h6><a href="https://www.stemwomen.org.au/resources/education">STEM Women</a></h6>
+      <h6><a href="https://www.spsnational.org/scholarships/tunca">Aysen Tunca Memorial Scholarship</a></h6>
+      <h6><a href="https://www.heinleinsociety.org/scholarship-program/">Heinlein Society</a></h6>
+      <h6><a href="https://thebhwgroup.com/scholarship">BHW Scholarship</a></h6>
+      <h6><a href="https://scholarshipamerica.org/students/browse-scholarships/apply-for-the-dream-award/">The Dream Award</a></h6>
+      <h6><a href="https://www.aspirations.org/">Aspirations in Computing Award</a></h6>
+      <h6><a href="ttps://www.dronepilotgroundschool.com/scholarship/#college">Drone Technology College Scholarship</a></h6>
+      <h6><a href="https://www.scienceambassadorscholarship.org/">Science Ambassador Scholarship</a></h6>
+      <h6><a href="https://www.smartscholarship.org/smart?id=smart_index">Smart Scholarship</a></h6>
+      <h6><a href="https://www.spsnational.org/scholarships/science-systems-and-applications-inc-ssai-academic-scholarship">Science Systems and Applications, Inc. (SSAI) Academic Scholarship</a></h6>
+      <h6><a href="https://www.spsnational.org/scholarships/lorentzen">AWIS Kirsten R. Lorentzen Award</a></h6>
+      <h6><a href="https://www.iise.org/Details.aspx?id=857">IISE Scholarships</a></h6>
+      <h6><a href="https://www.wai.org/education/scholarships/2018/american-airlines-engineering-scholarship">Women in Aviation Scholarship</a></h6>
+      <h6><a href="https://swe.org/scholarships/">SWE Scholarships</a></h6>
+      <h6><a href="https://www.girlscouts.org/en/our-program/scholarships.All.All.html">Girl Scouts Scholarships</a></h6>
+      
+    </div>
+  </div>
+</div>
+
+<!--
+******FUNCTION FOR PODCAST POP-UPS::
+-->
+<!-- Tia -->
+<div id="p1" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <h6>-------------------------</h6>
+        <span onclick="document.getElementById('p1').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <iframe src="https://open.spotify.com/embed/episode/08ri0Y0Bwdiiz7iuZ8MU1d?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <!--
+        <iframe src="https://open.spotify.com/embed/episode/3kytAdFvpORYeeii0DUdjs" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        -->
+        <h6></h6>
+        
+      </div>
+      <div class="w3-container">
+      <h6><b>Tia Dubuisson</b></h6>
+        <h6>CEO and CoFounder of Bell Fluer Technologies</h6>
+        <h6><i>"The machines are learning....are you?  Be a life learner to stay ahead of the curve!</i></h6>
+        <h6></h6>
+        <h6><b>Episode Description</b></h6>
+        <h6>In this episode, we join Tia Dubuisson of Belle Fluer Technologies. She comes to talk to us about her journey, aws servers, and big data. What is big data? Big data is a term that describes large, hard-to-manage volumes of data – both structured and unstructured – that inundate businesses on a day-to-day basis. But it's not the amount of data that's important. It's what organizations do with the data that matters. Her company, Belle Fluer Technologies focuses on data, analytics & AI solutions to tansform Businessnesses. </h6>
+        <h6>In this episode, Tia advises to “Stay Hungry!” One great way to do this is to get certifications. Certifications are an easy way to prove your knowledge and learn more about computer science without needing a degree. They’re also a great way to keep up-to date on skills for the ever-changing tech industry. See the resources below for places you can get certifications. </h6>
+        <h6>Tia also emphasizes the importance of clear communication and diversity. Anyone developing software is subject to implicit biases (the attitudes or stereotypes that affect our understanding, actions, and decisions in an unconscious manner). By having more diversity, we can reduce these biases and include more perspectives. Clear communication is key for a healthy and productive work environment.</h6>
+        <h6>Tia wants to remind all the listeners, “If others can do it, why can’t you?”</h6>
+        <button onclick="https://drive.google.com/file/d/1ZehhZTMjvdsl40xK2YVZGPZJNtmASLYk/view?usp=sharing">TRANSCRIPT</button>
+        <h6></h6>
+        <h6><b>Resources</b></h6>
+        <h6><i>Tia's Suggested Resources:</i></h6>
+        <a href="https://usa.generation.org/">Generation USA</a>
+        <h6></h6>
+        <a href="https://www.mdc.edu/entec/">MDC</a>
+        <h6></h6>
+        <a href="https://bellefleurtech.zohobackstage.com/AWSDataEngineeringVisualizationImmersionDay1">Belle Fluer Technologies</a>
+        <h6></h6>
+        <h6><i>Certification Resources:</i></h6>
+        <a href="https://www.linkedin.com/learning/subscription/topics?src=go-pa&veh=sem_src.go-pa_c.LLS-C_NAMER_All_US_Search_Google-Brand_DR-PRS_Broad_LIL-General-Alpha_All_English_Core-MKAG_pkw.linkedin%20certifications_pmt.e_pcrid.484112881663_pdv.c_plc._trgid.kwd-423598615194_net.g_learning&trk=sem_src.go-pa_c.LLS-C_NAMER_All_US_Search_Google-Brand_DR-PRS_Broad_LIL-General-Alpha_All_English_Core-MKAG_pkw.linkedin%20certifications_pmt.e_pcrid.484112881663_pdv.c_plc._trgid.kwd-423598615194_net.g_learning&mcid=6626616148786065462&cname=&camid=11768088402&asid=119694078372&targetid=kwd-423598615194&crid=484112881663&placement=&dev=c&ends=1&gclid=Cj0KCQjw6s2IBhCnARIsAP8RfAhIdp1TD32Pn-2Zq_0ldT9RVZgT2rdrsiGtEKUMc9Z8Qu3uorca4ssaAj4HEALw_wcB&gclsrc=aw.ds">LinkedIn</a>
+        <h6></h6>
+        <a href="https://aws.amazon.com/certification/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=certification%20aws&sc_content=General_exact&sc_matchtype=e&sc_segment=464830920922&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!464830920922!e!!g!!certification%20aws&ef_id=Cj0KCQjw6s2IBhCnARIsAP8RfAhc0YbM7KukMYZkYXwx2ZZQ4hGKdXj289Cj7DlpclTETAI0XBpq4kUaAs1cEALw_wcB:G:s&s_kwcid=AL!4422!3!464830920922!e!!g!!certification%20aws">AWS Certification</a>
+        <h6></h6>
+        <a href="https://www.coursera.org/professional-certificates/google-it-support?utm_source=gg&utm_medium=sem&campaignid=2024515338&adgroupid=71205997189&device=c&keyword=computer%20certificate&matchtype=p&network=g&devicemodel=&adpostion=&creativeid=354796883711&hide_mobile_promo&gclid=Cj0KCQjw6s2IBhCnARIsAP8RfAi28LD2wmq9WYRYw--5RlQvaSG7RTDE3TZLv9ziHlosFuhlNvVvU_AaAktsEALw_wcB">Google IT</a>
+        <h6></h6>
+        <a href="https://www.coursera.org/professional-certificates?utm_source=gg&utm_medium=sem&utm_campaign=15-ProfCerts-US&utm_content=15-ProfCerts-US&campaignid=6614927913&adgroupid=118320510926&device=c&keyword=&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507100761807&hide_mobile_promo&gclid=Cj0KCQjw6s2IBhCnARIsAP8RfAiUP0WSwR5d07IDhUwCJqxJ4CXDKqjNGfo009RssKqMdYcdBQVM5jMaAmpEEALw_wcB">Coursera</a>
+        <h6><i>Also look for local coding bootcamps as a great way to learn and earn certifications!</i></h6>
+      </div>  
+  </div>
+</div>
+
+
+<!-- Francine -->
+<div id="p2" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <h6>-------------------------</h6>
+        <span onclick="document.getElementById('p2').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <iframe src="https://open.spotify.com/embed/episode/64YObBaTcEGUPVjgQRpqkK?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <h6></h6>
+        
+      </div>
+      <div class="w3-container">
+        <h6><b>Francine Berman</b></h6>
+        <h6>Director of Public Interest Technology and Stuart Rice Research Professor at UMass Amherst</h6>
+        <h6><i>“Dont take anybody's advice, listen to yourself!”</i></h6>
+        <h6></h6>
+        <h6><b>Podcast Description</b></h6>
+        <h6>Today we are joined by Dr. Francine Berman, Director of Public Interest Technology, and Stuart Rice Research Professor at UMass Amherst. She has come to talk to us about her journey, the Internet of Things, and data gathering. The Internet of Things (IoT) is a deeply interconnected ecosystem of billions of devices and systems that are transforming commerce, science and society.
+        </h6>
+        <h6>Dr. Berman is a data scientist whose current work focuses on the social and environmental impacts of information technology, and in particular of the Internet of Things. Dr.Berman is exploring the overarching ecosystem needed to guide the development of information technologies that maximize benefits, minimize risks, and promote individual protections, the public interest, and planetary responsibility. Dr. Berman's research focuses on data cyberinfrastructure and policy, the Internet of Things, and the social and environmental impacts of technology. Her leadership roles in academia and non-profits focus on improving and increasing the impact of technology in the public interest. Berman's broad professional goals are to make an impact and help train new Jedi.</h6>
+        <h6>In this episode, Dr. Berman avises to maintain resilience, curiosity, and integrity. She emphasizes the importance of following your passions, within your career choice and beyond. You cannot underestimate the importance of learning as much as possible and exposing yourself to both the arts and STEM. Dr. Berman leaves us with the advice, “don't take anybody's advice, listen to yourself!</h6>
+        <button onclick="document.location='default.asp'">TRANSCRIPT</button>
+        <h6></h6>
+        <h6><b>Resources</b></h6>
+        <h6>If you're interested in learning more about how your data is gathered and used, check out the <a href="https://www.thesocialdilemma.com/">Social Dilemna documentary</a> on Netflix</h6>
+        <h6>If you're interested in learning more about <a href="https://www.cs.rpi.edu/~bermaf/">Dr. Francine Berman, click here!</a></h6>
+        <h6><i>Fran's Suggested Resources:</i></h6>
+        <h6>Women in Tech Articles:</h6>
+        <h6><a href="hhttps://theconversation.com/the-tech-field-failed-a-25-year-challenge-to-achieve-gender-equality-by-2020-culture-change-is-key-to-getting-on-track-144779">"The tech field failed a 25-year challenge to achieve gender equality by 2020 - culture change is key to getting on track", The Conversation</a></h6>
+        <h6><a href="https://www.cs.rpi.edu/~bermaf/Let's%20Make%20Gender%20Diversity%20in%20Data%20Science%20a%20Priority%20Right%20from%20the%20Start%20-PLOS.pdf">"Let's Make Gender Diversity in Data Science a Priority Right from the Start", PLOS Biology</a></h6>
+        <h6><a href="https://www.fastcompany.com/3028608/how-to-move-the-women-in-technology-conversation-to-the-mainstream">"How to Move the Women in Technology Conversation to the Mainstream", Fast Company</a></h6>
+        <h6>Presentations:</h6>
+        <h6><a href="https://www.youtube.com/watch?v=f7hE1mVi7XA">Keynote, UMass Symposium on Computing for the Common Good</a></h6>
+        <h6><a href="https://data-science-colloq.sice.indiana.edu/">"Civilizing the Internet of Things"</a></h6>
+        <h6><a href="https://www.cs.rpi.edu/~bermaf/UCSD%20BERMAN.pdf">Got Data? Building a Sustainable Environment for Data-Driven Innovation, Keynote at the UC San Diego Department of Computer Science and Engineering 25th Anniversary</a></h6>
+        <h6><a href="https://www.cs.rpi.edu/~bermaf/Berman%20Grace%20Hopper%20Keynote.pdf">Grace Hopper Conference Keynote presentation</a></h6>
+        <h6>Websites:</h6>
+        <h6><a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a></h6>
+        <h6><a href="https://www.amacad.org/person/francine-d-berman">American Academy of Arts and Sciences</a></h6>
+      </div>  
+  </div>
+</div>
+
+<!-- Margaret -->
+<div id="p3" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <h6>-------------------------</h6>
+        <span onclick="document.getElementById('p3').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <iframe src="https://open.spotify.com/embed/episode/3kytAdFvpORYeeii0DUdjs" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <h6></h6>
+        
+      </div>
+      <div class="w3-container">
+        <h6><b>Margaret Dominguez</b></h6>
+        <h6p>Optical Engineer at NASA Goddard</h6>
+        <h6><i>"Keep trying and work hard!"</i></h6>
+        <h6></h6>
+        <h6><b>Podcast Description</b></h6>
+        <h6>In this episode, we join Dr. Margaret Dominguez from NASA Goddard. She comes to talk to us about her journey, NASA, and optical engineering. What is optical engineering? Optical engineering is the field of science and engineering encompassing the physical phenomena and technologies associated with the generation, transmission, manipulation, detection, and utilization of light. She uses her optical engineering knowledge to work on space telescopes for NASA. She looks forward to the incredible future of the field of optics.</h6>
+        <h6>In this episode, Dr. Dominguez stresses the importance of mentorship. She has had many mentors and mentees in her life. She believes that a mentorship is an incredible tool. Mentors are useful in creating your own community and they’re a great source of advice and encouragement.</h6>
+        <h6>Margaret leaves us with the advice to believe in yourself. She says, “there are so many opportunities out there, so focus on what you want to do. It can be hard to deal with other people’s opinions, but we get to decide what we do.” She says to believe in yourself and through the sea of negativity, you will find like-minded people.</h6>
+        <button onclick="document.location='default.asp'">TRANSCRIPT</button>
+        <h6></h6>
+        <h6><b>Resources</b></h6>
+        <h6><i>Dr. Dominguez's Suggested Resources:</i></h6>
+        <h6><a href="https://www.youtube.com/watch?v=E-pMRTgoPzM">Dr. Dominguez's Ted Talk</a></h6>
+        <h6><a href="https://technolochicas.org/about">Technolochicas</a></h6>
+        <h6><a href="http://www.scigirlsconnect.org/groups/latina-scigirls/">SciGirls Connect</a></h6>
+        <h6><a href="https://www.osa.org/en-us/careers/">OSA Career Lab</a></h6>
+        <h6><i>Engineering Resources:</i></h6>
+        <h6><a href="https://apps.apple.com/us/app/diy-nano/id520611568">DIY Nano</a></h6>
+        <h6><a href="https://samlabs.com/us/">SAM Labs</a></h6>
+        <h6><a href="http://pbskids.org/designsquad/">Design Squad Global</a></h6>
+        <h6><a href="http://www.instructables.com/">Instructables</a></h6>
+        <h6><a href="https://www.tinkercad.com/">Tinkercad</a></h6>
+        <h6><a href="http://www.pbs.org/wgbh/nova">NOVA</a></h6>
+        <h6><a href="http://tryengineering.org/">TryEngineering</a></h6>
+      </div>  
+  </div>
+</div>
+
+</body>
+</html>
